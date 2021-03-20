@@ -10,23 +10,28 @@ class Service extends React.Component {
   }
   render() {
     return (
-      <div className="team-parent">
-        {this.state.Data.map(({ id, name, imageUrl, jobtitle }) => (
-          <div className="team-display">
-            <p>{jobtitle}</p>
-            <div
-              style={{
-                backgroundImage: `url(${imageUrl})`,
-                backgroundSize: "cover",
-              }}
-              className="team-container"
-              key={id}
-            ></div>
-            <div>
-              <h1>{name}</h1>
+      <div>
+        {" "}
+        <h1 className="title">our team</h1>
+        <div className="team-parent">
+          {this.state.Data.map(({ id, name, imageUrl, jobtitle }) => (
+            <div className="team-display">
+              <p>{jobtitle}</p>
+
+              <div
+                style={{
+                  backgroundImage: `url(${imageUrl})`,
+                  backgroundSize: "cover",
+                }}
+                className="team-container"
+                key={id}
+              ></div>
+              <div>
+                <h1>{name}</h1>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     );
   }

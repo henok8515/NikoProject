@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Ball from "./Ball";
 import Header from "./Component/Header/Header";
 import Gallery from "./Page/HomePage/Gallary/Gallery";
 import HomePage from "./Page/HomePage/HomePage";
@@ -10,7 +11,7 @@ function App() {
     <div className="app">
       <Header />
       <HomePage />
-      <Gallery />
+      {/* <Gallery /> */}
       <Service />
     </div>
   );

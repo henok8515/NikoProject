@@ -1,0 +1,8 @@
+body {
+  cursor: pointer;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

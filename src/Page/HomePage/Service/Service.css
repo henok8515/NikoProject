@@ -1,0 +1,87 @@
+.span1 {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1526928648912-6b2ac1cc14d7?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+
+  margin: 20px 20px;
+}
+.span2 {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1542039965961-32cd1f2af27c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+
+  margin: 20px 20px;
+}
+.span3 {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+  background-size: cover;
+
+  margin: 20px 20px;
+}
+.span4 {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+
+  margin: 20px 20px;
+}
+.span5 {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+
+  margin: 20px 20px;
+}
+.span6 {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+
+  margin: 20px 20px;
+}
+.service-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(123, 123, 180);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-family: fantasy;
+  letter-spacing: 4px;
+}
+.team-container {
+  height: 200px;
+  width: 200px;
+}
+.team-parent {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-display {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
